@@ -1,0 +1,12 @@
+# Ignore build artifacts and IDE files
+*.o
+*.a
+*.so
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Dockerfile and README (optional, but you can keep them if you want)
+Dockerfile
+README.md
