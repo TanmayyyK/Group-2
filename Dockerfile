@@ -11,7 +11,7 @@ COPY . .
 RUN apt-get update && apt-get install -y make
 
 # Compile the C++ source code
-RUN g++ -o AirlineReservationSystem main.cpp
+RUN g++ -o Airline_Reservation_System airlinereservationsystem.cpp
 
 # Set the default command to run the application
-CMD ["./AirlineReservationSystem"]
+CMD ["./Airline_Reservation_System"]
